@@ -1,0 +1,36 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+@media (min-width: 768px) {
+
+	.change_case.col-md-6 {
+		-ms-flex: 0 0 50%;
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+}
+
+.change_case.col-md-6 {
+	position: relative;
+	width: 100%;
+}
+
+.row {
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.change_case_grid {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-column-gap: 10px;
+}
+
+input.change_case {
+	width: 100%;
+}
+
+input.change_case_uppercase {
+	text-change_case: uppercase;
+}
